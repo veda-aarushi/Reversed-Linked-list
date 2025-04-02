@@ -1,0 +1,27 @@
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  background-color: #f9fafb;
+  color: #1f2937;
+  margin: 0;
+  padding: 0;
+}
+
+/* SVG text inside nodes */
+svg text {
+  dominant-baseline: middle;
+  font-weight: 500;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* SVG node rectangles */
+svg rect {
+  transition: fill 0.3s ease-in-out;
+  stroke: #1f2937;
+  stroke-width: 1;
+}
+
+/* Smooth arrow animation */
+.animated-arrow {
+  transition: d 0.4s ease-in-out;
+}
